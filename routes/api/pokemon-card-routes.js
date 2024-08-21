@@ -96,7 +96,7 @@ router.delete('/:id', async (req, res) => {
   try {
     const cardData = await PokemonCard.destroy({
       where: {
-        id: req.params.id,
+        id: req.params.id,  // Ensure req.params.id is an integer
       },
     });
 
