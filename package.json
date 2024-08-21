@@ -1,0 +1,21 @@
+{
+    "name": "pokemon-card-retail-backend",
+    "version": "1.0.0",
+    "description": "Back end for a Pokémon card retail website.",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "seed": "node seeds/index.js",
+      "schema": "psql -U postgres -d pokemon_db -f ./db/schema.sql"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "pg": "^8.6.0",
+      "pg-hstore": "^2.3.3",
+      "sequelize": "^6.6.2",
+      "dotenv": "^8.2.0"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  
