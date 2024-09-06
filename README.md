@@ -1,5 +1,12 @@
 # Pokémon Card Retail Backend
 
+## Table of Contents
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Walkthrough Video](#walkthrough-video)
+5. [ERD](#erd)
+
 ## Description
 This is a back-end application for a Pokémon card retail site built using Node.js, Express.js, Sequelize, and PostgreSQL.
 
